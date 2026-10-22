@@ -1,0 +1,4 @@
+Algorithm,Accuracy,Toxic_Precision,Toxic_Recall,Toxic_F1,Training_Time_Sec,True_Negatives,False_Positives,False_Negatives,True_Positives
+Logistic Regression,0.9583,0.9018,0.6622,0.7637,0.94,28436,234,1096,2149
+Decision Tree,0.9447,0.8771,0.53,0.6608,8.03,28429,241,1525,1720
+Random Forest,0.9559,0.8607,0.6758,0.7571,23.01,28315,355,1052,2193

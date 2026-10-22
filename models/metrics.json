@@ -1,0 +1,19 @@
+{
+    "selected_model": "Logistic Regression",
+    "dataset_name": "Jigsaw Toxic Comment Classification Challenge",
+    "total_samples": 159571,
+    "train_samples": 127656,
+    "test_samples": 31915,
+    "accuracy": 0.9583,
+    "precision": 0.9018,
+    "recall": 0.6622,
+    "f1_score": 0.7637,
+    "confusion_matrix": {
+        "true_negatives": 28436,
+        "false_positives": 234,
+        "false_negatives": 1096,
+        "true_positives": 2149
+    },
+    "training_time_seconds": 0.94,
+    "total_pipeline_time": 48.27
+}
