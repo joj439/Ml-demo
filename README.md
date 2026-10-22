@@ -200,6 +200,24 @@ python -m streamlit run app.py
 Open your browser and navigate to:  
 👉 **`http://localhost:8501`**
 
+### 6. Docker Container Deployment
+Run the containerized application using Docker Desktop:
+```bash
+# Build the Docker image
+docker build -t ai-content-moderator:latest .
+
+# Run the container
+docker run -d --name moderation-app -p 8501:8501 ai-content-moderator:latest
+```
+Open your browser at 👉 **`http://localhost:8501`**
+
+To stop or inspect the container:
+```bash
+docker logs moderation-app       # View application logs
+docker stop moderation-app       # Stop the container
+docker rm moderation-app         # Remove the container
+```
+
 ---
 
 ## 📸 12. Application Screenshots

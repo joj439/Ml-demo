@@ -1,0 +1,30 @@
+# Git version control
+.git
+.gitignore
+
+# Python bytecode, compilation, and virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.env
+
+# Large raw training datasets (not needed for production inference)
+data/*.csv
+data/train.csv
+
+# IDE and OS-specific metadata
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Streamlit local runtime state
+.streamlit/
+
+# Temporary, log, and cache files
+*.log
+*.tmp
+*.bak
